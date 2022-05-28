@@ -1,0 +1,148 @@
+
+.nav {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgb(193, 191, 191);
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    padding-left: 20px;
+    font-family:'Roboto Mono', monospace;
+    z-index: 9999;
+    
+  }
+  .nav .nav-title{
+    justify-content: space-between;
+    color: aliceblue;
+    padding-left: 20px;
+    font-size: 33px;
+    
+  }
+
+  .nav a {
+    padding: 8px;
+    color: aliceblue;
+    text-decoration: none;
+    float: left;
+    display: block;
+  
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+  
+  .nav-links{
+     display: flex;
+     align-items: flex-end;
+     margin-bottom: 30px;
+  }
+  
+  .active{
+    font-weight: bold;
+  }
+  
+  button{
+    background-color: rgb(5, 152, 220);
+    color: aliceblue;
+    padding: 10px 20px;
+    border: 1px solid black;
+    box-shadow: 10px 3px black;
+    margin: auto 57px  auto 10px;
+    font-weight: bold;
+  }
+
+  .greenbtn{
+    background-color: rgb(103, 206, 110);
+    width: 183px;
+  }
+  
+  .pl{
+      padding-top: 60px;
+      padding-left: 30px;
+  }
+    body {
+        font-family: 'Indie Flower', cursive;
+    }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    margin: 0px 40px 20px 40px;
+  }
+    .content-container{
+      display: flex;
+       flex: 2;
+      flex-direction: row;
+      
+  }
+     
+    .box {
+        display: flex;
+        justify-content: left;
+        width: 632px;
+        height: 101px;
+        margin-bottom: 30px;
+        padding-bottom: 161px;
+        border: 3px solid black;
+        padding-left: 20px;
+    }
+    
+    
+  .yellowbtn{
+    background-color: rgb(242, 241, 77);
+    color: black;
+    width: 100px;
+  }
+  
+    .row1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 115px 48px 0px 99px;
+    }
+    
+  
+    .row2{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .box_5 {
+    display: flex;
+    justify-content: left;
+    width: 632px;
+    height: 91px;
+    padding-bottom: 161px;
+    border: 3px solid black;
+    padding-left: 20px;
+   }
+  
+    .box_3 {
+    width: 321px;
+    height: 71px;
+    padding-bottom: 161px;
+    border: 3px solid black;
+    padding-left: 20px;
+    margin-top: 117px;
+    }
+   
+    .connection-list{
+        margin-bottom: 100px;
+    }
+    
+  input[type="text"] {
+    font-size: 17px;
+    line-height: 1;
+    width: 50%;
+    height: 60px;
+    margin-top: 10px;
+    }
+   
+  
+
+  
+  
+  
